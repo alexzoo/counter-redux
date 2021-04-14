@@ -2,6 +2,8 @@ import React from 'react'
 import './counter.css'
 import { connect } from 'react-redux'
 import * as actions from '../actions'
+// import { connect } from 'react-redux'
+
 
 const Counter = ({counter, inc, dec, res}) => {
 	return (
